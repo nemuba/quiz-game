@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "Em que ano nasceu Ellen G. White?",
+      "options": ["1825", "1827", "1830"],
+      "correct": 1
+    },
+    {
+      "question": "Em qual cidade dos Estados Unidos Ellen G. White nasceu?",
+      "options": ["Portland", "Boston", "Nova York"],
+      "correct": 0
+    },
+    {
+      "question": "Quantos anos Ellen G. White tinha quando recebeu sua primeira visão?",
+      "options": ["15", "17", "19"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano Ellen G. White se casou com Tiago White?",
+      "options": ["1844", "1846", "1848"],
+      "correct": 1
+    },
+    {
+      "question": "Quantos filhos Ellen G. White teve?",
+      "options": ["2", "3", "4"],
+      "correct": 2
+    },
+    {
+      "question": "Qual foi o primeiro livro publicado por Ellen G. White?",
+      "options": ["O Grande Conflito", "Primeiros Escritos", "Caminho a Cristo"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano Ellen G. White faleceu?",
+      "options": ["1913", "1915", "1917"],
+      "correct": 1
+    },
+    {
+      "question": "Qual era o nome de solteira de Ellen G. White?",
+      "options": ["Ellen Gould", "Ellen Harmon", "Ellen Parker"],
+      "correct": 1
+    },
+    {
+      "question": "Em qual país Ellen G. White passou vários anos como missionária?",
+      "options": ["Inglaterra", "Austrália", "África do Sul"],
+      "correct": 1
+    },
+    {
+      "question": "Qual acidente na infância afetou permanentemente a saúde de Ellen G. White?",
+      "options": ["Queda de cavalo", "Pedrada no rosto", "Queimadura grave"],
+      "correct": 1
+    }
+  ]
+}

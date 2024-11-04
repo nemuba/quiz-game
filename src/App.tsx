@@ -1,37 +1,15 @@
 import React, { useState } from 'react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Trophy, X, Check } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui';
+import { X, Check } from 'lucide-react';
 import { ThemeProvider } from "./components/theme-provider"
 import { ThemeToggle } from "./components/theme-toggle"
-
-interface Question {
-  question: string;
-  options: string[];
-  correct: number;
-}
-
-const questions: Question[] = [
-  {
-    question: "Qual é a capital do Brasil?",
-    options: ["São Paulo", "Rio de Janeiro", "Brasília"],
-    correct: 2
-  },
-  {
-    question: "Quem pintou a Mona Lisa?",
-    options: ["Van Gogh", "Leonardo da Vinci", "Pablo Picasso"],
-    correct: 1
-  },
-  {
-    question: "Qual é o maior planeta do sistema solar?",
-    options: ["Marte", "Júpiter", "Saturno"],
-    correct: 1
-  }
-];
+import Score from './components/Score';
+import { useQuestions } from './hooks/useQuestions';
 
 const letters: string[] = ['A', 'B', 'C'];
 
 const App: React.FC = () => {
+  const { questions, loading, error } = useQuestions();
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
   const [showScore, setShowScore] = useState<boolean>(false);
@@ -79,6 +57,26 @@ const App: React.FC = () => {
     return 'bg-card hover:bg-accent text-card-foreground';
   };
 
+  if (loading) {
+    return (
+      <ThemeProvider defaultTheme="dark">
+        <div className="min-h-screen bg-background flex items-center justify-center">
+          <p>Carregando...</p>
+        </div>
+      </ThemeProvider>
+    );
+  }
+
+  if (error || questions.length === 0) {
+    return (
+      <ThemeProvider defaultTheme="dark">
+        <div className="min-h-screen bg-background flex items-center justify-center">
+          <p>Erro ao carregar as questões</p>
+        </div>
+      </ThemeProvider>
+    );
+  }
+
   return (
     <ThemeProvider defaultTheme="dark">
       <div className="min-h-screen bg-background">
@@ -92,23 +90,11 @@ const App: React.FC = () => {
             </CardHeader>
             <CardContent>
               {showScore ? (
-                <div className="text-center">
-                  <div className="flex justify-center mb-4">
-                    <Trophy size={64} className="text-yellow-500" />
-                  </div>
-                  <h2 className="text-xl mb-4">
-                    Você acertou {score} de {questions.length} questões!
-                  </h2>
-                  <div className="text-lg mb-4">
-                    Porcentagem de acerto: {((score / questions.length) * 100).toFixed(0)}%
-                  </div>
-                  <Button
-                    onClick={resetQuiz}
-                    className="bg-blue-500 hover:bg-blue-600 text-white"
-                  >
-                    Jogar Novamente
-                  </Button>
-                </div>
+                <Score
+                  score={score}
+                  totalQuestions={questions.length}
+                  onRestart={resetQuiz}
+                />
               ) : (
                 <>
                   <div className="mb-6">

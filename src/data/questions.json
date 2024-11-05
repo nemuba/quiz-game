@@ -49,6 +49,246 @@
       "question": "Qual acidente na infância afetou permanentemente a saúde de Ellen G. White?",
       "options": ["Queda de cavalo", "Pedrada no rosto", "Queimadura grave"],
       "correct": 1
+    },
+    {
+      "question": "Qual era a profissão de Tiago White antes de se tornar pregador?",
+      "options": ["Professor", "Fazendeiro", "Carpinteiro"],
+      "correct": 0
+    },
+    {
+      "question": "Quantos filhos Ellen G. White teve ao total?",
+      "options": ["2", "3", "4"],
+      "correct": 2
+    },
+    {
+      "question": "Qual foi o nome do primeiro filho de Ellen G. White?",
+      "options": ["Henry", "James", "William"],
+      "correct": 0
+    },
+    {
+      "question": "Em que ano Ellen White teve sua primeira visão?",
+      "options": ["1844", "1845", "1846"],
+      "correct": 1
+    },
+    {
+      "question": "Em que idade Ellen White sofreu o acidente que afetou sua saúde?",
+      "options": ["7", "9", "11"],
+      "correct": 1
+    },
+    {
+      "question": "Qual era o nome da irmã gêmea de Ellen White?",
+      "options": ["Elizabeth", "Mary", "Elizabeth"],
+      "correct": 0
+    },
+    {
+      "question": "Em que ano Ellen White foi para a Austrália?",
+      "options": ["1885", "1891", "1894"],
+      "correct": 1
+    },
+    {
+      "question": "Quanto tempo Ellen White permaneceu na Austrália?",
+      "options": ["5 anos", "9 anos", "11 anos"],
+      "correct": 1
+    },
+    {
+      "question": "Qual instituição educacional Ellen White ajudou a estabelecer na Austrália?",
+      "options": ["Avondale College", "Sydney College", "Melbourne Academy"],
+      "correct": 0
+    },
+    {
+      "question": "Em que ano foi publicado o livro 'O Grande Conflito'?",
+      "options": ["1858", "1884", "1888"],
+      "correct": 2
+    },
+    {
+      "question": "Qual foi o último livro que Ellen White completou antes de sua morte?",
+      "options": ["Profetas e Reis", "Atos dos Apóstolos", "Obreiros Evangélicos"],
+      "correct": 1
+    },
+    {
+      "question": "Onde Ellen White faleceu?",
+      "options": ["Battle Creek", "Elmshaven", "Portland"],
+      "correct": 1
+    },
+    {
+      "question": "Qual era a denominação religiosa original de Ellen White antes do Adventismo?",
+      "options": ["Metodista", "Batista", "Presbiteriana"],
+      "correct": 0
+    },
+    {
+      "question": "Quem batizou Ellen White?",
+      "options": ["Robert Harmon", "William Miller", "John Loughborough"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano Ellen White foi batizada?",
+      "options": ["1840", "1842", "1844"],
+      "correct": 1
+    },
+    {
+      "question": "Qual foi o primeiro periódico adventista que Ellen White ajudou a estabelecer?",
+      "options": ["Present Truth", "Review and Herald", "Signs of the Times"],
+      "correct": 0
+    },
+    {
+      "question": "Em que ano foi estabelecida a primeira escola adventista?",
+      "options": ["1872", "1874", "1876"],
+      "correct": 1
+    },
+    {
+      "question": "Qual foi o primeiro sanatório adventista estabelecido?",
+      "options": ["Battle Creek Sanitarium", "Loma Linda", "Paradise Valley"],
+      "correct": 0
+    },
+    {
+      "question": "Quantos livros Ellen White escreveu aproximadamente?",
+      "options": ["25", "40", "65"],
+      "correct": 2
+    },
+    {
+      "question": "Qual era o nome do pai de Ellen White?",
+      "options": ["Robert Harmon", "John Harmon", "William Harmon"],
+      "correct": 0
+    },
+    {
+      "question": "Em que ano Ellen White visitou a Europa pela primeira vez?",
+      "options": ["1885", "1887", "1889"],
+      "correct": 0
+    },
+    {
+      "question": "Qual dos filhos de Ellen White se tornou médico?",
+      "options": ["Henry", "William", "John"],
+      "correct": 1
+    },
+    {
+      "question": "Onde foi realizada a primeira Conferência Geral dos Adventistas do Sétimo Dia?",
+      "options": ["Battle Creek", "Portland", "Washington"],
+      "correct": 0
+    },
+    {
+      "question": "Qual era a ocupação de Ellen White antes de seu ministério profético?",
+      "options": ["Costureira", "Professora", "Fabricante de chapéus"],
+      "correct": 2
+    },
+    {
+      "question": "Em que ano foi publicado 'Caminho a Cristo'?",
+      "options": ["1890", "1892", "1894"],
+      "correct": 1
+    },
+    {
+      "question": "Qual foi o último país que Ellen White visitou em suas viagens?",
+      "options": ["Inglaterra", "Austrália", "Nova Zelândia"],
+      "correct": 1
+    },
+    {
+      "question": "Quem foi o principal colaborador de Ellen White na compilação de seus escritos?",
+      "options": ["Marian Davis", "William White", "Uriah Smith"],
+      "correct": 0
+    },
+    {
+      "question": "Em que ano foi estabelecido o Battle Creek College?",
+      "options": ["1872", "1874", "1876"],
+      "correct": 1
+    },
+    {
+      "question": "Qual foi a primeira visão de Ellen White sobre a reforma de saúde?",
+      "options": ["1848", "1863", "1866"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano Ellen White recebeu a visão sobre a Grande Controvérsia?",
+      "options": ["1854", "1858", "1860"],
+      "correct": 1
+    },
+    {
+      "question": "Onde Ellen White escreveu grande parte do livro 'O Desejado de Todas as Nações'?",
+      "options": ["Battle Creek", "Austrália", "Califórnia"],
+      "correct": 1
+    },
+    {
+      "question": "Qual era o nome da mãe de Ellen White?",
+      "options": ["Eunice Harmon", "Elizabeth Harmon", "Mary Harmon"],
+      "correct": 0
+    },
+    {
+      "question": "Em que idade Ellen White começou seu ministério público?",
+      "options": ["15", "17", "19"],
+      "correct": 1
+    },
+    {
+      "question": "Qual foi o primeiro país fora dos EUA que Ellen White visitou?",
+      "options": ["Inglaterra", "Suíça", "Austrália"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano foi publicado 'Patriarcas e Profetas'?",
+      "options": ["1888", "1890", "1892"],
+      "correct": 1
+    },
+    {
+      "question": "Onde Ellen White viveu seus últimos anos?",
+      "options": ["Battle Creek", "Elmshaven", "Portland"],
+      "correct": 1
+    },
+    {
+      "question": "Qual foi a última conferência geral que Ellen White participou?",
+      "options": ["1909", "1913", "1915"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano Ellen White fez sua última viagem pública?",
+      "options": ["1912", "1914", "1915"],
+      "correct": 0
+    },
+    {
+      "question": "Quantos idiomas os escritos de Ellen White foram traduzidos durante sua vida?",
+      "options": ["Mais de 10", "Mais de 20", "Mais de 30"],
+      "correct": 1
+    },
+    {
+      "question": "Qual era o nome do último filho de Ellen White?",
+      "options": ["John", "Herbert", "Henry"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano Ellen White ajudou a estabelecer o Pacific Press?",
+      "options": ["1872", "1874", "1875"],
+      "correct": 2
+    },
+    {
+      "question": "Qual foi o primeiro país europeu que Ellen White visitou?",
+      "options": ["Inglaterra", "Suíça", "Alemanha"],
+      "correct": 1
+    },
+    {
+      "question": "Quantos anos Ellen White permaneceu viúva após a morte de Tiago White?",
+      "options": ["31", "34", "35"],
+      "correct": 2
+    },
+    {
+      "question": "Em que ano Ellen White recebeu a visão sobre a escola de Battle Creek?",
+      "options": ["1872", "1874", "1876"],
+      "correct": 0
+    },
+    {
+      "question": "Qual foi o último artigo que Ellen White escreveu para a Review and Herald?",
+      "options": ["The Last Crisis", "The End of All Things", "The Final Call"],
+      "correct": 0
+    },
+    {
+      "question": "Em que cidade Ellen White estabeleceu sua última residência permanente?",
+      "options": ["St. Helena", "Battle Creek", "Portland"],
+      "correct": 0
+    },
+    {
+      "question": "Qual foi o título do primeiro artigo publicado por Ellen White?",
+      "options": ["To the Little Remnant", "A Word to the Little Flock", "Letter to the Scattered Flock"],
+      "correct": 1
+    },
+    {
+      "question": "Em que ano Ellen White visitou a Escandinávia?",
+      "options": ["1885", "1886", "1887"],
+      "correct": 1
     }
   ]
 }

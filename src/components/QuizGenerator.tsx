@@ -47,7 +47,7 @@ export const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated })
   };
 
   return (
-    <Card className="w-full max-w-md mx-auto">
+    <Card className={`w-full max-w-md mx-auto transition-all duration-300 ${isLoading ? 'animate-pulse' : ''}`}>
       <CardHeader>
         <h2 className="text-2xl font-bold text-center">Gerador de Quiz</h2>
       </CardHeader>
@@ -97,9 +97,16 @@ export const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated })
         <button
           onClick={handleGenerateQuiz}
           disabled={isLoading || !topic.trim()}
-          className="w-full p-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="w-full p-3 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2"
         >
-          {isLoading ? 'Gerando...' : 'Gerar Quiz'}
+          {isLoading ? (
+            <>
+              <div className="w-5 h-5 border-2 border-t-transparent border-white rounded-full animate-spin" />
+              <span>Gerando...</span>
+            </>
+          ) : (
+            'Gerar Quiz'
+          )}
         </button>
       </div>
     </Card>

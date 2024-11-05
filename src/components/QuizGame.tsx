@@ -50,6 +50,10 @@ const QuizGame: React.FC<QuizGameProps> = ({ questions, onBackToGenerator }) => 
     setShowScore(false);
     setSelectedAnswer(null);
     setShowFeedback(false);
+  };
+
+  const handleNewQuiz = (): void => {
+    resetQuiz();
     onBackToGenerator();
   };
 
@@ -73,6 +77,7 @@ const QuizGame: React.FC<QuizGameProps> = ({ questions, onBackToGenerator }) => 
           score={score}
           totalQuestions={questions.length}
           onRestart={resetQuiz}
+          onNewQuiz={handleNewQuiz}
         />
       ) : (
         <>

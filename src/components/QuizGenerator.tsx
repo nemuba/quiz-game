@@ -13,6 +13,10 @@ export const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated })
   const [numberOfQuestions, setNumberOfQuestions] = useState(5);
   const [isLoading, setIsLoading] = useState(false);
 
+  const removeLeadingZeros = (value: string) => {
+    return value.replace(/^0+/, '') || '1';
+  };
+
   const handleGenerateQuiz = async () => {
     setIsLoading(true);
     try {
@@ -87,7 +91,7 @@ export const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated })
           <input
             type="number"
             value={numberOfQuestions}
-            onChange={(e) => setNumberOfQuestions(Number(e.target.value))}
+            onChange={(e) => setNumberOfQuestions(Number(removeLeadingZeros(e.target.value)))}
             min="1"
             max="20"
             className="w-full p-2 rounded-md border border-input bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-primary"

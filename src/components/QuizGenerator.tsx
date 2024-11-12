@@ -14,7 +14,7 @@ export const QuizGenerator: React.FC<QuizGeneratorProps> = ({ onQuizGenerated })
   const [isLoading, setIsLoading] = useState(false);
 
   const removeLeadingZeros = (value: string) => {
-    return value.replace(/^0+/, '');
+    return value.replace(/^0+/, '') || '1';
   };
 
   const handleGenerateQuiz = async () => {

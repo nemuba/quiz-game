@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "build": "nvm install && nvm use && bun install && bun run build"
+  }
+}
